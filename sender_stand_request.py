@@ -101,7 +101,7 @@ def post_products_kits(products_ids):
 response = post_products_kits(data.products_ids)
 
 # Вывод HTTP-статус кода ответа и тела ответа в формате JSON
-# Это позволяет проверить успешность выполнения запроса и посмотреть результаты поиска наборов
+# Это позволяет проверить успешность выполнения запроса и посмотреть результаты поиска наборовddddddd
 print(response.status_code)
 print(response.json())
 
